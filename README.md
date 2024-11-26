@@ -10,6 +10,30 @@ This repository demonstrates how to modularize Terraform code for a scalable, ma
 
 In typical infrastructure deployments, environments like dev, QA, and production might have different requirements (e.g., dev doesn’t need a load balancer or Route53). Managing these differences with a single Terraform codebase can lead to manual changes, which is inefficient. By breaking the code into modules, you can dynamically include/exclude components based on environment requirements, making the infrastructure easier to manage.
 
+
+## Modular Structure:
+
+
+
+
+
+![terraform-module-structure-vscode](https://github.com/user-attachments/assets/60eedfd5-b022-442e-9bb3-d8cb52128c26)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################################################################################################
+
 ## Solution
 
 We break the infrastructure into the following modules:
